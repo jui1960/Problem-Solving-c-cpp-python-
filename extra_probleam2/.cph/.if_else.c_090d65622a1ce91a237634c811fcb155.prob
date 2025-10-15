@@ -1,0 +1,1 @@
+{"name":"Local: if_else","url":"e:\\Extraproblem\\if_else.c","tests":[{"id":1745854596394,"input":"600","output":"One large Pizza"},{"id":1745854662375,"input":"10","output":"Nothing"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Extraproblem\\if_else.c","group":"local","local":true}

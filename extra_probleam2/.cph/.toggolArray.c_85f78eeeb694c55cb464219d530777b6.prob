@@ -1,0 +1,1 @@
+{"name":"Local: toggolArray","url":"e:\\Extraproblem\\toggolArray.c","tests":[{"id":1745856710803,"input":"5\n0 1 1 0 0\n4","output":"0 1 1 1 0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Extraproblem\\toggolArray.c","group":"local","local":true}

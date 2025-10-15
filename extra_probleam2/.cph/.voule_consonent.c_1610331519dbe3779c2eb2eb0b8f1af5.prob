@@ -1,0 +1,1 @@
+{"name":"Local: voule_consonent","url":"e:\\Extraproblem\\voule_consonent.c","tests":[{"id":1745858187566,"input":"a","output":"voWel"},{"id":1745858223445,"input":"b","output":"consonant"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Extraproblem\\voule_consonent.c","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: divide3_or_5","url":"e:\\Extraproblem\\divide3_or_5.c","tests":[{"id":1745855355384,"input":"7","output":"1 No\n2 No\n3 Yes\n4 No\n5 Yes\n6 Yes\n7 No"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Extraproblem\\divide3_or_5.c","group":"local","local":true}
