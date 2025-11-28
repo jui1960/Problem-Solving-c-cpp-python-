@@ -1,42 +1,52 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+
 int main()
 {
-    char a[100001];
-    scanf("%s", a);
-    int length = strlen(a);
-    int i = 0;
-    int j = length - 1;
-    int ple = 0;
+    char s[100000];
+    scanf("%s", s);
 
-    while (i < j)
+    int n = strlen(s);
+
+    // Check palindrome
+    bool isPal = true;
+    int i = 0, j = n - 1;
+
+    while (i <= j)
     {
-        if (a[i] != a[j])
+        if (s[i] != s[j])
         {
-            ple = 1;
+            isPal = false;
             break;
         }
         i++;
         j--;
     }
-    if (ple == 0)
-    {
-        printf("%s\nYES", a);
-    }
 
+    // Reverse string
+    char r[100000];
+    for (int k = 0; k < n; k++)
+    {
+        r[k] = s[n - 1 - k];
+    }
+    r[n] = '\0';
+
+    // Remove leading zeros from reversed
+    int pos = 0;
+    while (r[pos] == '0')
+        pos++;
+
+    if (pos == n)
+        printf("0\n");
     else
-    {
-        
-        j--;
-        int temp = a[i];
-        a[i] = a[j];
-        a[j] = temp;
-        
-        printf("%s\nNO", a);
+        printf("%s\n", r + pos);
 
-       
-
-        // printf("%d%d\nNO", a[i] - 48, a[j] - 48);
-    }
+    // Print palindrome result
+    if (isPal)
+        printf("YES\n");
+    else
+        printf("NO\n");
 
     return 0;
 }
